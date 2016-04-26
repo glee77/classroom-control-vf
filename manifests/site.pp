@@ -27,6 +27,7 @@ ini_setting { 'random ordering':
   setting => 'ordering',
   value   => 'title-hash',
 }
+include users
 
 # DEFAULT NODE
 # Node definitions in this file are merged with node data from the console. See
